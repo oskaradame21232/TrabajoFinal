@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif, Helvetica;
+    background: #e8e8e8;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.menu li a:hover {
+    background: #ef8354;
+}
+
+/* Cambio de fondo posterior al menú */
+body {
+    background: #000500;
+}
+
+.galeria {
+    width: 100%;
+}
+
+.galeria img {
+    vertical-align: top;
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+    opacity: 0.5;
+    border: 1px solid #848484;
+}
+
+.galeria img:hover {
+    border: 1px solid #fff;
+    opacity: 1;
+}
+footer {
+	text-align: center;
+	background-color: #222;
+	color: white;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+footer li {
+	margin: 5px 0;
+}

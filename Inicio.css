@@ -1,0 +1,92 @@
+body{
+	font-family:arial, sans-serif, helvetica;
+	background:#e8e8e8;
+}
+
+.menu{
+	list-style:none;
+	padding:0;
+	background:#092327;
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+.menu li{
+	display:inline-block;
+	text-align:center;
+}
+
+.menu li a{
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	padding:20px;
+}
+
+.menu li a:hover{
+	background:#ef8354;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: system-ui, -apple-sistem, blinkmacsystemfont, 'segoe UI', roboto, oxygen, ubuntu, cantarell, 'open sans', 'helvetica neue, sans-serif';
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+video{
+	width: 50%;
+}
+
+h1{
+	color: black;
+	font-size: 60px;
+}
+main{
+	background: #FFFFFF;
+	padding: 20px 30px;
+	border: 2px solid #CACFD2;
+}
+main .foto{
+	width: 150px;
+	height: 150px;
+	background-color: #85C1E9;
+	border-radius: 50%;
+	margin: -90px 0 20px 0;
+	border: 6px solid #ffffff;
+}
+main .foto img{
+	width: 100%;
+	border-radius:50%;
+}
+footer {
+	text-align: center;
+	background-color: #222;
+	color: blue;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+footer {
+	text-align: center;
+	background-color: #222;
+	color: white;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+footer li {
+	margin: 5px 0;
+}
